@@ -1,4 +1,3 @@
-
 import { useState } from "react"
 
 // necesita el prop onSubmit
@@ -31,4 +30,5 @@ function SearchBar({ onSubmit }){
         </div>
     )
 }
+
 export default SearchBar
