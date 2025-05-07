@@ -1,3 +1,5 @@
+import axios from 'axios'
+
 const searchRobots = async(term) => {
     // Utilice en url https://jsonplaceholder.typicode.com/users
     const url = 'https://jsonplaceholder.typicode.com/users'
